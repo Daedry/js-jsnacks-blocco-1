@@ -13,7 +13,7 @@ const listaInvitati = invitati.filter(function (inviti) {
 });
 
 if (nomeUtente === listaInvitati[0]) {
-  console.log("puoi partecipare alla festa del grande Gatsby");
+  console.log("Puoi partecipare alla festa del grande Gatsby");
 } else {
   console.log("Mi dispiace ma non sei presente nella lista degli invitati");
 }
