@@ -3,7 +3,7 @@ Snack 9
 Calcola la somma e la media dei primi 10 numeri.
 */
 
-let randomNum, somma;
+let randomNum, somma, media;
 somma = 0;
 
 for (let i = 0; i < 10; i++) {
@@ -11,4 +11,7 @@ for (let i = 0; i < 10; i++) {
   somma += randomNum;
 }
 
+media = somma / 10;
 console.log(somma);
+console.log(media);
+
